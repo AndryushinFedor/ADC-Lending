@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-    padding-top: 224px;
+    padding-top: 13.333vw;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -37,20 +37,20 @@ h1 {
     font-family: 'Vela Sans';
     font-style: normal;
     font-weight: 800;
-    font-size: 98px;
-    line-height: 134px;
+    font-size: 5.833vw;
+    line-height: 7.976vw;
     /* identical to box height */
     text-align: center;
     color: #FFFFFF;
 }
 
 span {
-    padding-top: 18px;
+    padding-top: 1.071vw;
     font-family: 'Vela Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
-    line-height: 44px;
+    font-size: 1.905vw;
+    line-height: 2.619vw;
     /* identical to box height */
 
     text-align: center;
@@ -60,7 +60,7 @@ span {
 
 button {
     font-family: 'Vela Sans';
-    font-size: 18px;
+    font-size: 1.071vw;
     line-height: 143%;
     letter-spacing: 0.01em;
 
@@ -69,22 +69,22 @@ button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 6px 15px 8px;
-    gap: 12px;
+    padding: 0.357vw 0.893vw 0.476vw;
+    gap: 0.714vw;
     width: auto;
-    height: 56px;
+    height: 3.333vw;
     /* System/Deep Green */
     background: #41EF3E;
     border: none;
-    border-radius: 12px;
+    border-radius: 0.714vw;
 }
 
 .form {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 3.810vw;
+    padding-bottom: 3.810vw;
 }
 
 .img1 {
@@ -93,14 +93,14 @@ button {
 }
 
 input {
-    padding: 6px 12px;
-    gap: 32px;
-    width: 329px;
-    height: 56px;
+    padding: 0.357vw 0.714vw;
+    gap: 1.905vw;
+    width: 19.524vw;
+    height: 3.333vw;
     /* Background/Bg Secondary */
     background: rgba(176, 175, 210, 0.09);
     border: none;
-    border-radius: 12px;
+    border-radius: 0.714vw;
 
 }
 
@@ -111,88 +111,100 @@ button:hover {
 
 .modules {
     position: relative;
-    height: 900px;
+    height: 53.571vw;
 }
 
 .modulesText {
-    padding-left: 560px;
-    padding-top: 536px;
-    padding-bottom: 200px;
+    padding-left: 33.333vw;
+    padding-top: 31.905vw;
+    padding-bottom: 11.905vw;
 }
 
 .modul1 {
     position: absolute;
-    top: 240px;
-    left: 96px;
+    top: 14.286vw;
+    left: 5.714vw;
+    width: 21.786vw;
+    height: 33.452vw;
 }
 
 .modul2 {
     position: absolute;
-    top: 80px;
-    left: 368px;
+    top: 4.762vw;
+    left: 21.905vw;
+    width: 21.786vw;
+    height: 19.107vw;
 }
 
 .modul3 {
     position: absolute;
-    top: 144px;
-    left: 1056px;
+    top: 8.571vw;
+    left: 62.857vw;
+    width: 17.440vw;
+    height: 12.500vw;
 }
 
 .modul4 {
     position: absolute;
-    top: 248px;
-    left: 1216px;
+    top: 14.762vw;
+    left: 72.381vw;
+    width: 21.786vw;
+    height: 24.881vw;
 }
 
 .profile {
-    padding-top: 80px;
+    padding-top: 4.762vw;
     position: relative;
-    height: 1080px;
+    height: 64.286vw;
 }
 
 .profile1 {
     position: absolute;
     top: 0;
-    left: 160px;
+    left: 9.524vw;
+    width: 71.845vw;
+    height: 55.357vw;
 
 }
 
 .profileText {
-    padding-top: 200px;
-    padding-left: 1056px;
+    padding-top: 11.905vw;
+    padding-left: 62.857vw;
 }
 
 .remember {
     position: relative;
-    height: 700px;
+    height: 41.667vw;
 }
 
 .remember1 {
     position: absolute;
     top: 0;
     right: 0;
+    width: 53.690vw;
+    height: 36.786vw;
 }
 .rememberText {
-    padding-top: 20px;
-    padding-left: 240px;
+    padding-top: 1.190vw;
+    padding-left: 14.286vw;
 }
 
 h2 {
     font-family: 'Vela Sans';
     font-style: normal;
     font-weight: 800;
-    font-size: 48px;
-    line-height: 66px;
+    font-size: 2.857vw;
+    line-height: 3.929vw;
     color: #FFFFFF;
-    padding-bottom: 16px;
+    padding-bottom: 0.952vw;
 }
 
 p {
     font-family: 'Vela Sans';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 1.429vw;
+    line-height: 1.964vw;
 
     color: rgba(255, 255, 255, 0.6);
 }
@@ -205,25 +217,25 @@ footer {
     background: rgba(176, 175, 210, 0.09);
     display: flex;
     flex-direction: row;
-    height: 104px;
+    height: 6.190vw;
 }
 
 .links {
     display: flex;
     flex-direction: row;
-    gap: 64px;
-    padding-left: 728px;
+    gap: 3.810vw;
+    padding-left: 43.333vw;
 }
 
 h3 {
-    padding-left: 64px;
+    padding-left: 3.810vw;
 }
 
 a, h3 {
     font-family: 'Vela Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.071vw;
     line-height: 143%;
     text-decoration: none;
     /* identical to box height, or 26px */
@@ -235,4 +247,8 @@ a, h3 {
     /* Label/Label Secondary */
 
     color: rgba(241, 241, 241, 0.6);
+}
+
+@media screen and (max-width: 1440px) {
+
 }
