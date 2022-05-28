@@ -118,6 +118,7 @@ button:hover {
     padding-left: 33.333vw;
     padding-top: 31.905vw;
     padding-bottom: 11.905vw;
+    width: 23.810vw;
 }
 
 .modul1 {
@@ -170,6 +171,7 @@ button:hover {
 .profileText {
     padding-top: 11.905vw;
     padding-left: 62.857vw;
+    width: 25.238vw;
 }
 
 .remember {
@@ -187,6 +189,7 @@ button:hover {
 .rememberText {
     padding-top: 1.190vw;
     padding-left: 14.286vw;
+    width: 28.095vw;
 }
 
 h2 {
@@ -249,6 +252,97 @@ a, h3 {
     color: rgba(241, 241, 241, 0.6);
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 440px) {
+    h1 {
+        font-size: 48px;
+        line-height: 44px;
+        width: 220px;
+        padding-bottom: 16px;
+    }
 
+    span {
+        font-size: 14px;
+        line-height: 19px;
+        padding-bottom: 0px;
+    }
+
+    .form {
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    button {
+        padding: 6px 15px 8px;
+        gap: 12px;
+        width: 148px;
+        height: 41px;   
+        background: #41EF3E;
+        border-radius: 12px;
+        font-size: 14px;
+        line-height: 143%;
+    }
+
+    input {
+        padding: 6px 107px 6px 12px;
+        gap: 32px;
+
+        width: 338px;
+        height: 42px;
+
+        /* Background/Bg Secondary */
+
+        background: rgba(176, 175, 210, 0.09);
+        border-radius: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 27px;
+        width: 200px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 19px;
+        width: 220px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        width: 90%;
+    }
+
+    .modul1 {
+        width: 145px;
+        height: 224px;
+    }
+
+    .modulesText {
+        padding-left: 220px;
+        padding-top: 80px;
+    }
+
+    .modul2, .modul3, .modul4 {
+        display: none;
+    }
+
+    .remember1 {
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+
+    footer {
+        justify-content: center;
+        height: 60px;
+    }
 }
