@@ -1,0 +1,238 @@
+@import url(../css/reset.css);
+
+@font-face {
+    font-family: "Vela Sans";
+    src: url("../fonts/VelaSans-Medium.woff2") format("woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Vela Sans";
+    src: url("../fonts/VelaSans-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Vela Sans";
+    src: url("../fonts/VelaSans-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+}
+
+body {
+    background-color: #060606;
+    overflow-x: hidden;
+}
+
+.header {
+    padding-top: 224px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 98px;
+    line-height: 134px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+span {
+    padding-top: 18px;
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+button {
+    font-family: 'Vela Sans';
+    font-size: 18px;
+    line-height: 143%;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 15px 8px;
+    gap: 12px;
+    width: auto;
+    height: 56px;
+    /* System/Deep Green */
+    background: #41EF3E;
+    border: none;
+    border-radius: 12px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.img1 {
+    width: 80%;
+    height: auto;
+}
+
+input {
+    padding: 6px 12px;
+    gap: 32px;
+    width: 329px;
+    height: 56px;
+    /* Background/Bg Secondary */
+    background: rgba(176, 175, 210, 0.09);
+    border: none;
+    border-radius: 12px;
+
+}
+
+button:hover {
+    background: #288726;
+    transition: 0.3s;
+}
+
+.modules {
+    position: relative;
+    height: 900px;
+}
+
+.modulesText {
+    padding-left: 560px;
+    padding-top: 536px;
+    padding-bottom: 200px;
+}
+
+.modul1 {
+    position: absolute;
+    top: 240px;
+    left: 96px;
+}
+
+.modul2 {
+    position: absolute;
+    top: 80px;
+    left: 368px;
+}
+
+.modul3 {
+    position: absolute;
+    top: 144px;
+    left: 1056px;
+}
+
+.modul4 {
+    position: absolute;
+    top: 248px;
+    left: 1216px;
+}
+
+.profile {
+    padding-top: 80px;
+    position: relative;
+    height: 1080px;
+}
+
+.profile1 {
+    position: absolute;
+    top: 0;
+    left: 160px;
+
+}
+
+.profileText {
+    padding-top: 200px;
+    padding-left: 1056px;
+}
+
+.remember {
+    position: relative;
+    height: 700px;
+}
+
+.remember1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.rememberText {
+    padding-top: 20px;
+    padding-left: 240px;
+}
+
+h2 {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+p {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.connect {
+    padding-bottom: 200px;
+}
+
+footer {
+    background: rgba(176, 175, 210, 0.09);
+    display: flex;
+    flex-direction: row;
+    height: 104px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    padding-left: 728px;
+}
+
+h3 {
+    padding-left: 64px;
+}
+
+a, h3 {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 143%;
+    text-decoration: none;
+    /* identical to box height, or 26px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+
+    /* Label/Label Secondary */
+
+    color: rgba(241, 241, 241, 0.6);
+}
