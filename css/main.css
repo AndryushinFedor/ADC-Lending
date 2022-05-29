@@ -23,6 +23,14 @@ body {
     overflow-x: hidden;
 }
 
+.img2 {
+    display: none;
+}
+
+.remember2 {
+    display: none;
+}
+
 .header {
     padding-top: 13.333vw;
     display: flex;
@@ -31,7 +39,66 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 25, 0.44) 0%, rgba(0, 209, 255, 0) 80%),radial-gradient(50% 50% at 50% 50%, rgba(204, 234, 255, 0.44) 0%, rgba(0, 209, 255, 0) 60%);;
+    background-position: left 422px top -446px, left -335px
+    top 184px;
+    background-repeat: no-repeat;
 }
+
+.runLeft {
+    white-space: nowrap;
+    animation: runningLeft 12s linear infinite;
+}
+
+.runRight {
+    white-space: nowrap;
+    animation: runningRight 12s linear infinite;
+}
+
+.icon {
+    vertical-align: middle;
+}
+
+.runningText p {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+.runningText {
+    padding-top: 8vw;
+    padding-bottom: 8vw;
+    overflow:hidden;
+}
+
+@keyframes runningLeft {
+    0% {
+        transform: translate(0,0);
+    }
+
+    100% {
+        transform: translate(-1856px,0);
+    }
+} 
+
+@keyframes runningRight {
+    0% {
+        transform: translate(-2004px,0);
+    }
+
+    100% {
+        transform: translate(0,0);
+    }
+} 
+
 
 h1 {
     font-family: 'Vela Sans';
@@ -58,6 +125,10 @@ span {
     color: #FFFFFF;
 }
 
+.profile2 {
+    display: none;
+}
+
 button {
     font-family: 'Vela Sans';
     font-size: 1.071vw;
@@ -81,6 +152,7 @@ button {
 
 .form {
     display: flex;
+    gap: 1vw;
     flex-direction: row;
     justify-content: center;
     padding-top: 3.810vw;
@@ -269,6 +341,7 @@ a, h3 {
     .form {
         flex-direction: column;
         justify-items: center;
+        align-items: center;
     }
 
     button {
@@ -316,6 +389,7 @@ a, h3 {
     }
 
     .img2 {
+
         width: 90%;
     }
 
@@ -333,16 +407,65 @@ a, h3 {
         display: none;
     }
 
+    .remember {
+        padding-top: 60vw;
+    }
+
+
+    .rememberText {
+        padding-top: 20vw;
+        padding-left: 40vw;
+    }
+
     .remember1 {
         display: none;
+    }
+
+    .remember2 {
+        position: absolute;
+        right: 0;
+        display: block;
     }
 
     .links {
         display: none;
     }
 
+    .profileText {
+        padding-left: 6vw;
+        padding-top: 36vw;
+    }
+
+    .profile {
+        padding-top: 20vw;
+    }
+
+    .profile1 {
+        display: none;
+    }
+
+    .profile2 {
+        position: absolute;
+        right: 0;
+        display: block;
+    }
+
     footer {
         justify-content: center;
         height: 60px;
     }
+
+    .connect h1 {
+        width:auto;
+    }
+
+    .connect {
+        padding-top: 40vw;
+    }
+
+    .form {
+        gap: 4vw;
+    }
+
+
 }
