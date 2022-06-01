@@ -39,20 +39,20 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 25, 0.44) 0%, rgba(0, 209, 255, 0) 80%),radial-gradient(50% 50% at 50% 50%, rgba(204, 234, 255, 0.44) 0%, rgba(0, 209, 255, 0) 60%);;
-    background-position: left 422px top -446px, left -335px
-    top 184px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 25, 0.4) 0%, rgba(0, 209, 255, 0) 80%),radial-gradient(50% 50% at 50% 50%, rgba(204, 234, 255, 0.2) 0%, rgba(0, 209, 255, 0) 60%);;
+    background-position: left 600px top -500px, left -635px
+    top 100px;
     background-repeat: no-repeat;
 }
 
 .runLeft {
     white-space: nowrap;
-    animation: runningLeft 12s linear infinite;
+    animation: runningLeft 14s linear infinite;
 }
 
 .runRight {
     white-space: nowrap;
-    animation: runningRight 12s linear infinite;
+    animation: runningRight 14s linear infinite;
 }
 
 .icon {
@@ -249,6 +249,7 @@ button:hover {
 .remember {
     position: relative;
     height: 41.667vw;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 25, 0.1) 0%, rgba(0, 209, 255, 0) 100%);
 }
 
 .remember1 {
